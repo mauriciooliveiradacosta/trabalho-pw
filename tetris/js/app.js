@@ -27,7 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
     'url(images/peach_block.png)',
     'url(images/yellow_block.png)'
   ]
+  let tempoAtual = 0;
 
+  function voltarTempo(segundo) {
+      tempoAtual -= segundos;
+      console.log(Tempo atual:) ${tempoAtual} ( segundos);
+  }
 
   function createGrid() {
     // the main grid
