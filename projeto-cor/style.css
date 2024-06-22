@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *{
     margin: 0px;
     font-family: sans-serif;
@@ -10,7 +9,7 @@ div.nav-center{
 div.nav-center h1{
     margin: 20px;
     border-radius:20px ;
-    background-color: black;
+    background:linear-gradient(to right ,black , transparent);
     color: white;
     padding: 20px ;
     text-align: center;
